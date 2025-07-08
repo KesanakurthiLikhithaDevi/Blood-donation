@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <div style="text-align: center;">
+  <img src="logo.jpg" alt="Bharati Script Logo" style="height: 80px;">
+</div>
+
+    <title>Search by City</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            background: #f4f8fb;
+            color: #333;
+        }
+
+        header {
+            background-color: #d62828;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 30px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h2 {
+            color: #d62828;
+        }
+
+        select {
+            width: 100%;
+            padding: 12px;
+            font-size: 16px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            margin: 20px 0;
+        }
+
+        .results {
+            margin-top: 20px;
+            color: #555;
+            font-style: italic;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2d2d2d;
+            color: #ccc;
+            font-size: 14px;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: #fca311;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Search Blood Donors by City</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="languages/telugu.html">తెలుగు</a>
+            <a href="languages/hindi.html">हिंदी</a>
+            <a href="index.html">English</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Select Your City</h2>
+        <select name="city">
+            <option value="">-- Choose a City --</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Bengaluru">Bengaluru</option>
+            <option value="Chennai">Chennai</option>
+        </select>
+
+        <div class="results">
+            Donor details will appear here after dynamic integration.
+        </div>
+    </div>
+
+    <footer>
+       <div>Created by <strong>Kesanakurthi Likhitha Devi , Kesanakurthi Naga Siddhartha , Bajaru Siva Nandini</strong> </div>
+       <div>MRU students</div>
+        <a href="index.html">Back to Home</a>    
+
+</body>
+</html>

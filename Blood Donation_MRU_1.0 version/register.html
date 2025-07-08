@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <div style="text-align: center;">
+  <img src="logo.jpg" alt="Bharati Script Logo" style="height: 80px;">
+</div>
+
+    <title>Register as Donor</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            background: #f0f4f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #d62828;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 30px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #d62828;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            background-color: #d62828;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #a31e1e;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2d2d2d;
+            color: #ccc;
+            font-size: 14px;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: #fca311;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Donor Registration</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="languages/telugu.html">తెలుగు</a>
+            <a href="languages/hindi.html">हिंदी</a>
+            <a href="index.html">English</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Register as a Blood Donor</h2>
+        <form action="#" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" name="name" id="name" required>
+
+            <label for="blood_group">Blood Group:</label>
+            <input type="text" name="blood_group" id="blood_group" required>
+
+            <label for="city">City:</label>
+            <input type="text" name="city" id="city" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="text" name="phone" id="phone" required>
+
+            <label for="email">Email ID:</label>
+            <input type="email" name="email" id="email">
+
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age" required>
+
+            <label for="gender">Gender:</label>
+            <select name="gender" id="gender" required>
+                <option value="">--Select--</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select>
+
+            <input type="submit" value="Register">
+        </form>
+    </div>
+
+    <footer>
+        <div>Created by <strong>Kesanakurthi Likhitha Devi ,Kesanakurthi Naga Siddhartha ,Bajaru Siva Nandini</strong></div>
+       <div> MRU students</div>
+         <a href="index.html">Back to Home</a>
+    </footer>
+
+</body>
+</html>
